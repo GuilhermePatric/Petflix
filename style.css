@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background-color: #141414;
+  color: white;
+}
+/* menu */
+header > div > h1 {
+  margin-left: 10px;
+  font-family: Bebas;
+  color: #e50914;
+  font-size: 65px;
+}
+header > div > nav > a {
+  font-size: 20px;
+  margin-left: 20px;
+  color: rgb(250, 210, 160);
+}
+header > div > nav :hover {
+  color: white;
+}
+header > div > nav {
+  margin-right: 30px;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* menu*/
+
+/*main*/
+.filme-principal {
+  
+  margin-top: 20pz;
+  background-image: linear-gradient(
+      45deg,
+      black,
+      rgba(112, 112, 112, 0.342) 100%
+    ),
+    url("/img/background.jpg");
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal .apresentacao {
+  margin-bottom: 30px;
+  width: 70%;
+}
+.apresentacao > h3 {
+  margin-bottom: 2%;
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.botao {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: 0.5s ease all;
+}
+.botao > i {
+  margin-right: 7px;
+}
+.apresentacao {
+  margin-left: 20px;
+  width: 400px;
+}
+.botoes :hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.carrousel-filmes{
+  margin-top:2px;
+}
+.box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}

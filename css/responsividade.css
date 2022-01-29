@@ -1,0 +1,21 @@
+@media screen and (max-width: 700px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .botoes{
+    width: 300px;
+  }
+
+}
+
+@media screen and (min-width:1000px){
+    .apresentacao{
+        width: 50%;
+
+    }
+    .filme-principl{
+        width: 100%;
+      }
+}
